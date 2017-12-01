@@ -1,4 +1,27 @@
 * {
-font-family:Verdana;
-color:goldenrod;
+    font-family:Verdana;
+    color:goldenrod;
+    text-align: center
+}
+body {
+    background-color:#051838      
+    
+}
+.start{
+    padding-top:25px 
+}
+.sidebar{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 20%;
+    background-color:#0c2756
+
+}
+.sidebar>div{
+    text-align: left
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    align-self: flex-start;
 }
