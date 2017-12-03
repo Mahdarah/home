@@ -1,27 +1,92 @@
+/* <head>
+            <title>Mahdarah Silverstein</title>
+    </head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <a href="gamelist.html" class="button">Games </a>
+    <a href="index.html" class="button">Articles</a>
+    <br>
+*/
 * {
     font-family:Verdana;
-    color:goldenrod;
-    text-align: center
+    color:#5f3260;
+    text-align: center; 
+    text-decoration: none; 
 }
+
 body {
-    background-color:#051838      
-    
+    background: linear-gradient(to top left, #336699 0%, #000066 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.articletext{
+    text-align:left; 
+    word-wrap: break-word;
 }
 .start{
-    padding-top:25px 
+    padding-top:25px ;
 }
-.sidebar{
+
+.button {
+    color:#339966;
+    padding-top:25px ;
+}
+
+/*.sidebar{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     max-width: 20%;
-    background-color:#0c2756
-
+    float:left;
 }
 .sidebar>div{
-    text-align: left
+    text-align: left;
     margin: 10px;
     padding:20px;
     font-size: 30px;
     align-self: flex-start;
+    font-size: 20px;
+} */
+
+.articles{
+    display:flex;
+    flex-direction:column-reverse;  
+    align-items: center;
+    justify-content: center;    
+}
+.gamelist {
+    font-size: 40px;
+}
+
+.articles>div{
+    text-align: center;
+    margin: 10px;
+    padding:20px;
+    font-size: 30px;
+    flex-wrap:wrap;
+}
+
+buttons {
+    color:aliceblue;
+}
+
+p.thick{
+    font-weight: 900
+    
+}
+
+a.link { 
+    background:none;border:none; 
+    font-size:65px; 
+    text-decoration: none;
+}
+
+a.sidelink { 
+    background:none;border:none; 
+    font-size:25px; 
+    text-decoration: none;
+}
+
+a:hover {
+    color:#5e0020;
+    
 }
